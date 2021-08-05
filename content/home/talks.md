@@ -3,6 +3,9 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
+# Activate this widget? true/false
+active: true
+
 # This file represents a page section.
 headless: true
 
@@ -14,7 +17,7 @@ subtitle:
 
 content:
   # Page type to display. E.g. post, event, publication...
-  page_type: event
+  page_type: talk
   # Choose how many pages you would like to display (0 = all pages)
   count: 5
   # Filter on criteria
