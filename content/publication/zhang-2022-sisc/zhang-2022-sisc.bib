@@ -1,0 +1,13 @@
+@article{Zhang2022tsadjoint,
+abstract = {We present a new software system PETSc TSAdjoint for first-order and second-order adjoint sensitivity analysis of time-dependent nonlinear differential equations. The derivative calculation in PETSc TSAdjoint is essentially a high-level algorithmic differentiation process. The adjoint models are derived by differentiating the timestepping algorithms and implemented based on the parallel infrastructure in PETSc. Full differentiation of the library code including MPI routines thus is avoided, and users do not need to derive their own adjoint models for their specific applications. PETSc TSAdjoint can compute the first-order derivative, that is, the gradient of a scalar functional, and the Hessian-vector product that carries second-order derivative information, while requiring minimal input (a few callbacks) from the users. Optimal checkpointing schemes are employed by the adjoint model in a manner that is transparent to users. Usability, efficiency, and scalability are demonstrated through examples from a variety of applications.},
+author = {Zhang, Hong and Constantinescu, Emil M. and Smith, Barry F.},
+title = {PETSc TSAdjoint: A Discrete Adjoint ODE Solver for First-Order and Second-Order Sensitivity Analysis},
+journal = {SIAM Journal on Scientific Computing},
+volume = {44},
+number = {1},
+pages = {C1-C24},
+year = {2022},
+doi = {10.1137/21M140078X},
+URL = {https://doi.org/10.1137/21M140078X},
+eprint = {https://doi.org/10.1137/21M140078X}
+}

@@ -223,17 +223,56 @@ title = {{Stability Analysis of Interface Conditions for Ocean–Atmosphere Coup
 volume = {84},
 year = {2020}
 }
-@techreport{Zhang2019b,
+@article{Zhang2022tsadjoint,
 abstract = {We present a new software system PETSc TSAdjoint for first-order and second-order adjoint sensitivity analysis of time-dependent nonlinear differential equations. The derivative calculation in PETSc TSAdjoint is essentially a high-level algorithmic differentiation process. The adjoint models are derived by differentiating the timestepping algorithms and implemented based on the parallel infrastructure in PETSc. Full differentiation of the library code including MPI routines thus is avoided, and users do not need to derive their own adjoint models for their specific applications. PETSc TSAdjoint can compute the first-order derivative, that is, the gradient of a scalar functional, and the Hessian-vector product that carries second-order derivative information, while requiring minimal input (a few callbacks) from the users. Optimal checkpointing schemes are employed by the adjoint model in a manner that is transparent to users. Usability, efficiency, and scalability are demonstrated through examples from a variety of applications.},
-author = {Zhang, Hong and Constantinescu, Emil and Smith, Barry},
-journal = {Submitted},
-title = {{PETSc TSAdjoint: a discrete adjoint ODE solver for first-order and second-order sensitivity analysis}},
-url = {https://arxiv.org/abs/1912.07696}
-year = {2020}
+author = {Zhang, Hong and Constantinescu, Emil M. and Smith, Barry F.},
+title = {PETSc TSAdjoint: A Discrete Adjoint ODE Solver for First-Order and Second-Order Sensitivity Analysis},
+journal = {SIAM Journal on Scientific Computing},
+volume = {44},
+number = {1},
+pages = {C1-C24},
+year = {2022},
+doi = {10.1137/21M140078X},
+URL = {https://doi.org/10.1137/21M140078X},
+eprint = {https://doi.org/10.1137/21M140078X}
 }
-@techreport{Zhang2020,
-author = {Mills, Richard T. and Adam, Mark F. and Bala, Satish and Brown, Jed and Dener, Alp and  Knepley, Matthew and Kruger, Scott and Morgan, Hannah and Munson, Todd and Rupp, Karl and Smith, Barry F. and Zampini, Stefano and Zhang, Hong and Zhang, Junchao},
-journal = {Submitted},
-title = {{Toward Performance-Portable PETSc for GPU-based Exascale Systems}},
-year = {2020}
+@article{MILLS2021102831,
+title = {Toward performance-portable PETSc for GPU-based exascale systems},
+journal = {Parallel Computing},
+volume = {108},
+pages = {102831},
+year = {2021},
+issn = {0167-8191},
+doi = {https://doi.org/10.1016/j.parco.2021.102831},
+url = {https://www.sciencedirect.com/science/article/pii/S016781912100079X},
+author = {Richard Tran Mills and Mark F. Adams and Satish Balay and Jed Brown and Alp Dener and Matthew Knepley and Scott E. Kruger and Hannah Morgan and Todd Munson and Karl Rupp and Barry F. Smith and Stefano Zampini and Hong Zhang and Junchao Zhang},
+}
+@article{kang2021massconserving,
+title = {Mass-conserving implicit–explicit methods for coupled compressible Navier–Stokes equations},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {384},
+year = {2021},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2021.113988},
+author = {Shinhoo Kang and Emil M. Constantinescu and Hong Zhang and Robert L. Jacob},
+}
+@inproceedings{Zhang2021iccs,
+  author = {Hong Zhang and Emil M. Constantinescu},
+  title = {{Revolve-based adjoint checkpointing for multistage time integration}},
+  booktitle = {{International Conference on Computational Science}},
+  year = {2021},
+  address = {(online), in main track},
+}
+@article{Maldonado2022,
+  title={{Trust-Region Approximation of Extreme Trajectories in Power System Dynamics}},
+  author={Daniel Maldonado and Emil Constantinescu and Hong Zhang and Vishwas Rao and Mihai Anitescu},
+  Journal={{IEEE Transaction on Power Systems}},
+  year={2022},
+}
+@inproceedings{liang2022stiffnessaware,
+title={Stiffness-aware neural network for learning Hamiltonian systems},
+author={Senwei Liang and Zhongzhan Huang and Hong Zhang},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=uVXEKeqJbNa}
 }

@@ -22,13 +22,21 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Principal Applied Mathematics Specialist
+    company: Argonne National Laboratory
+    company_url: ''
+    company_logo: anl
+    location: Lemont, IL
+    date_start: '2021-11-01'
+    date_end: ''
+
   - title: Assistant Computational Mathematician
     company: Argonne National Laboratory
     company_url: ''
     company_logo: anl
     location: Lemont, IL
     date_start: '2016-09-02'
-    date_end: ''
+    date_end: '2021-10-31'
 #    description: |2-
 #        Responsibilities include:
 

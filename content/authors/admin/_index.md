@@ -6,7 +6,7 @@ title: Hong Zhang
 superuser: true
 
 # Role/position/tagline
-role: Assistant Computational Mathematician
+role: Principal Applied Mathematics Specialist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -75,5 +75,5 @@ highlight_name: false
 
 ---
 
-Hong Zhang is an Assistant Computational Mathematician in the Mathematics and Computer Science division at Argonne National Laboratory. His recent work include scientific machine learning, sensitivity analysis, time stepping methods for coupled systems, dynamics-constrained optimization and high performance computing. He is a PETSc developer.
+Hong Zhang is a Principal Applied Mathematics Specialist in the Mathematics and Computer Science division at Argonne National Laboratory. His recent work include scientific machine learning, sensitivity analysis, time stepping methods for coupled systems, dynamics-constrained optimization and high performance computing. He is a PETSc developer.
 
